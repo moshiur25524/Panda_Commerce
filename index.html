@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -28,13 +28,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoe</a>
+                            <a class="nav-link" href="#shoes">Shoe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bags">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -145,7 +145,7 @@
         <!-- Categories end -->
 
         <!-- Shoes Section Start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
@@ -196,7 +196,7 @@
         <!-- Shoes Section End -->
 
         <!-- Bags Section Start -->
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
             <h2>Bags</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
@@ -245,6 +245,27 @@
             </div>
         </section>
         <!-- Bags Section End -->
+
+        <!-- Subscribe Section Start -->
+        <section class="container" id="subscribe">
+            <div style="height: 300px;" class="d-flex  justify-content-center align-items-center bg-info rounded-3">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p class="text-light">Get updates on sales, specials and more</p>
+                    <div class="">
+                        <form>
+                            <div class="row mb-2">
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe Section End -->
     </main>
 
 
