@@ -24,3 +24,14 @@ const bagContainer = document.getElementById('bag-container')
 bagContainer.addEventListener('click', function(event){
     console.log(event.target.parentNode.removeChild(event.target));
 })
+
+ document.getElementById('input-field').addEventListener('keyup', function(event){
+    const text = event.target.value;
+    const deleteButton = document.getElementById('submit-button');
+    if(text=== 'email'){
+        deleteButton.removeAttribute('disabled')
+    }
+    else{
+        deleteButton.setAttribute('disabled', true)
+    }
+ })
